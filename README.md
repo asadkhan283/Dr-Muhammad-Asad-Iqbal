@@ -1,588 +1,584 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Dr. Muhammad Asad Iqbal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Muhammad Asad Iqbal | Mathematics</title>
 
-    <style>
+<style>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            color: #222;
-        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
 
-        /* Navigation */
+/* NAVIGATION */
 
-        .navbar {
-            background: #ffffff;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #ddd;
-        }
+nav {
+    width: 100%;
+    background: #ffffff;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: #123b70;
-        }
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #173f8a;
+}
 
-        .menu a {
-            margin-left: 25px;
-            text-decoration: none;
-            color: #333;
-            font-size: 15px;
-        }
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
 
-        .menu a:hover {
-            color: #1769aa;
-        }
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
 
+nav ul li a:hover {
+    color: #173f8a;
+}
 
-        /* Hero */
+/* HERO SECTION */
 
-        .hero {
-            background: linear-gradient(120deg, #123b70, #2879a9);
-            color: white;
-            padding: 90px 8%;
-        }
+.hero {
+    min-height: 600px;
+    background: linear-gradient(135deg, #173f8a, #2563b8);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+}
 
-        .hero-container {
-            max-width: 1100px;
-            margin: auto;
-            display: flex;
-            align-items: center;
-            gap: 60px;
-        }
+.hero-content {
+    max-width: 850px;
+}
 
-        .photo {
-            width: 220px;
-            height: 220px;
-            background: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #123b70;
-            font-size: 55px;
-            font-weight: bold;
-            flex-shrink: 0;
-        }
+.hero h1 {
+    font-size: 58px;
+    margin-bottom: 15px;
+}
 
-        .hero h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
+.hero h2 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    color: #dbeafe;
+}
 
-        .hero h2 {
-            font-size: 23px;
-            font-weight: normal;
-            color: #dcecff;
-            margin-bottom: 20px;
-        }
+.hero p {
+    font-size: 19px;
+    line-height: 1.8;
+    max-width: 750px;
+    color: #f1f5f9;
+}
 
-        .hero p {
-            font-size: 17px;
-            line-height: 1.8;
-            max-width: 750px;
-        }
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 28px;
+    background: white;
+    color: #173f8a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
 
+.button:hover {
+    background: #e5e7eb;
+}
 
-        /* Buttons */
+/* GENERAL */
 
-        .button {
-            display: inline-block;
-            margin-top: 25px;
-            padding: 12px 25px;
-            background: white;
-            color: #123b70;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+section {
+    padding: 80px 10%;
+}
 
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    color: #173f8a;
+    margin-bottom: 15px;
+}
 
-        /* Sections */
+.section-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
 
-        .section {
-            padding: 70px 8%;
-        }
+/* ABOUT */
 
-        .section-container {
-            max-width: 1100px;
-            margin: auto;
-        }
+.about {
+    background: white;
+}
 
-        .title {
-            text-align: center;
-            font-size: 32px;
-            color: #123b70;
-            margin-bottom: 15px;
-        }
+.about-text {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
 
-        .subtitle {
-            text-align: center;
-            color: #777;
-            margin-bottom: 40px;
-        }
+.about-text p {
+    font-size: 18px;
+    line-height: 1.9;
+    color: #555;
+}
 
+/* EXPERTISE */
 
-        /* About */
+.expertise {
+    background: #f4f7fb;
+}
 
-        .about {
-            background: white;
-        }
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
 
-        .about-text {
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+    transition: 0.3s;
+}
 
-        .about-text p {
-            font-size: 17px;
-            line-height: 1.9;
-            color: #555;
-            margin-bottom: 18px;
-        }
+.card:hover {
+    transform: translateY(-8px);
+}
 
+.card-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
 
-        /* Research */
+.card h3 {
+    color: #173f8a;
+    margin-bottom: 12px;
+}
 
-        .research {
-            background: #f5f7fa;
-        }
+.card p {
+    color: #666;
+    line-height: 1.6;
+}
 
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-        }
+/* RESEARCH */
 
-        .card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            border: 1px solid #e0e5eb;
-        }
+.research {
+    background: white;
+}
 
-        .card h3 {
-            color: #123b70;
-            margin-bottom: 12px;
-        }
+.research-list {
+    max-width: 900px;
+    margin: auto;
+}
 
-        .card p {
-            color: #666;
-            line-height: 1.6;
-        }
+.research-item {
+    padding: 22px;
+    margin-bottom: 15px;
+    background: #f4f7fb;
+    border-left: 5px solid #173f8a;
+    border-radius: 8px;
+}
 
+.research-item h3 {
+    color: #173f8a;
+    margin-bottom: 7px;
+}
 
-        /* Expertise */
+/* CONTACT */
 
-        .expertise {
-            background: white;
-        }
+.contact {
+    background: #173f8a;
+    color: white;
+    text-align: center;
+}
 
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 12px;
-        }
+.contact .section-title {
+    color: white;
+}
 
-        .skill {
-            padding: 12px 20px;
-            background: #edf4fa;
-            color: #123b70;
-            border-radius: 25px;
-            font-weight: bold;
-        }
+.contact p {
+    font-size: 18px;
+    margin: 10px;
+}
 
+/* FOOTER */
 
-        /* Contact */
+footer {
+    background: #102d63;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
 
-        .contact {
-            background: #123b70;
-            color: white;
-            text-align: center;
-        }
+/* MOBILE */
 
-        .contact .title {
-            color: white;
-        }
+@media(max-width: 800px) {
 
-        .contact p {
-            margin: 8px;
-        }
+    nav {
+        padding: 15px 5%;
+    }
 
+    nav ul {
+        display: none;
+    }
 
-        /* Footer */
+    .hero {
+        padding: 70px 7%;
+    }
 
-        footer {
-            background: #0b2746;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
+    .hero h1 {
+        font-size: 40px;
+    }
 
+    .hero h2 {
+        font-size: 21px;
+    }
 
-        /* Mobile */
+    .hero p {
+        font-size: 17px;
+    }
 
-        @media(max-width: 800px) {
+    section {
+        padding: 60px 7%;
+    }
 
-            .navbar {
-                display: block;
-                text-align: center;
-            }
+    .cards {
+        grid-template-columns: 1fr;
+    }
 
-            .menu {
-                margin-top: 15px;
-            }
+}
 
-            .menu a {
-                margin: 8px;
-                display: inline-block;
-            }
-
-            .hero-container {
-                display: block;
-                text-align: center;
-            }
-
-            .photo {
-                margin: auto;
-                margin-bottom: 30px;
-            }
-
-            .hero h1 {
-                font-size: 36px;
-            }
-
-            .cards {
-                grid-template-columns: 1fr;
-            }
-
-        }
-
-    </style>
+</style>
 </head>
-
 
 <body>
 
 
 <!-- NAVIGATION -->
 
-<div class="navbar">
+<nav>
 
     <div class="logo">
         Dr. Asad Iqbal
     </div>
 
-    <div class="menu">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 
-        <a href="#home">Home</a>
+</nav>
 
-        <a href="#about">About</a>
 
-        <a href="#research">Research</a>
+<!-- HERO / PROFILE -->
 
-        <a href="#expertise">Expertise</a>
+<section class="hero" id="home">
 
-        <a href="#contact">Contact</a>
+    <div class="hero-content">
 
-    </div>
-
-</div>
-
-
-<!-- HERO -->
-
-<div class="hero" id="home">
-
-    <div class="hero-container">
-
-        <div class="photo">
-            AI
-        </div>
-
-        <div>
-
-            <h1>
-                Dr. Muhammad Asad Iqbal
-            </h1>
-
-            <h2>
-                Assistant Professor of Mathematics
-            </h2>
-
-            <p>
-                Riphah International University, Sahiwal Campus
-            </p>
-
-            <p style="margin-top:15px;">
-
-                Mathematician, researcher and educator with interests
-                in Algebra, Topological Groups, Selection Principles,
-                Game Theory, Algebraic Geometry, Vector Spaces,
-                Linear Algebra, Calculus, Data Science and
-                Artificial Intelligence.
-
-            </p>
-
-            <a href="#about" class="button">
-                View Profile
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- ABOUT -->
-
-<div class="section about" id="about">
-
-    <div class="section-container">
-
-        <h2 class="title">
-            About Me
-        </h2>
-
-        <p class="subtitle">
-            Academic Profile
-        </p>
-
-        <div class="about-text">
-
-            <p>
-
-                I am <strong>Dr. Muhammad Asad Iqbal</strong>,
-                currently working as an <strong>Assistant Professor
-                of Mathematics at Riphah International University,
-                Sahiwal Campus</strong>.
-
-            </p>
-
-            <p>
-
-                My research interests are primarily focused on
-                pure mathematics, particularly Algebra, Topological
-                Groups, Vector Spaces, Selection Principles,
-                Game Theory, and Algebraic Geometry.
-
-            </p>
-
-            <p>
-
-                I also have academic interests in Linear Algebra,
-                Calculus, Data Science, and Artificial Intelligence,
-                with an emphasis on connecting mathematical concepts
-                with modern computational applications.
-
-            </p>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- RESEARCH -->
-
-<div class="section research" id="research">
-
-    <div class="section-container">
-
-        <h2 class="title">
-            Research Interests
-        </h2>
-
-        <p class="subtitle">
-            Areas of research and academic interest
-        </p>
-
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>
-                    Algebra
-                </h3>
-
-                <p>
-                    Research in algebraic structures and
-                    related mathematical theories.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    Topological Groups
-                </h3>
-
-                <p>
-                    Study of topological groups, topological
-                    algebra and related structures.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    Selection Principles
-                </h3>
-
-                <p>
-                    Selection principles and covering properties
-                    in topology.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    Game Theory
-                </h3>
-
-                <p>
-                    Mathematical and topological games and
-                    their applications.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    Algebraic Geometry
-                </h3>
-
-                <p>
-                    Algebraic structures and geometric methods
-                    in mathematics.
-                </p>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    Data Science & AI
-                </h3>
-
-                <p>
-                    Mathematical foundations of data science,
-                    machine learning and artificial intelligence.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- EXPERTISE -->
-
-<div class="section expertise" id="expertise">
-
-    <div class="section-container">
-
-        <h2 class="title">
-            Areas of Expertise
-        </h2>
-
-        <p class="subtitle">
-            Academic and professional expertise
-        </p>
-
-        <div class="skills">
-
-            <div class="skill">Algebra</div>
-
-            <div class="skill">Topological Groups</div>
-
-            <div class="skill">Vector Spaces</div>
-
-            <div class="skill">Selection Principles</div>
-
-            <div class="skill">Game Theory</div>
-
-            <div class="skill">Algebraic Geometry</div>
-
-            <div class="skill">Linear Algebra</div>
-
-            <div class="skill">Calculus</div>
-
-            <div class="skill">Data Science</div>
-
-            <div class="skill">Artificial Intelligence</div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-<!-- CONTACT -->
-
-<div class="section contact" id="contact">
-
-    <div class="section-container">
-
-        <h2 class="title">
-            Contact
-        </h2>
-
-        <p>
+        <h1>
             Dr. Muhammad Asad Iqbal
-        </p>
+        </h1>
 
-        <p>
+        <h2>
             Assistant Professor of Mathematics
-        </p>
+        </h2>
 
         <p>
             Riphah International University, Sahiwal Campus
         </p>
 
+        <p style="margin-top:20px;">
+
+            Mathematician and educator with research interests in
+            Algebra, Topological Groups, Selection Principles,
+            Game Theory, Algebraic Geometry, and Vector Spaces,
+            with additional expertise in Linear Algebra, Calculus,
+            Data Science, and Artificial Intelligence.
+
+        </p>
+
+        <a href="#about" class="button">
+            Explore My Profile
+        </a>
+
     </div>
 
-</div>
+</section>
+
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+    <h2 class="section-title">
+        About Me
+    </h2>
+
+    <p class="section-subtitle">
+        Mathematics • Research • Teaching • Data & AI
+    </p>
+
+    <div class="about-text">
+
+        <p>
+
+            I am <strong>Dr. Muhammad Asad Iqbal</strong>, currently serving
+            as an <strong>Assistant Professor of Mathematics at Riphah
+            International University, Sahiwal Campus</strong>.
+
+            My academic interests cover both pure and applied mathematics.
+            My research focuses particularly on Algebra, Topological Groups,
+            Vector Spaces, Selection Principles, Game Theory, and Algebraic
+            Geometry.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            Alongside my research in mathematics, I am interested in
+            Linear Algebra, Calculus, Data Science, and Artificial
+            Intelligence, especially in exploring how mathematical
+            concepts can contribute to modern computational and
+            data-driven applications.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- EXPERTISE -->
+
+<section class="expertise" id="expertise">
+
+    <h2 class="section-title">
+        Areas of Expertise
+    </h2>
+
+    <p class="section-subtitle">
+        Research and academic interests
+    </p>
+
+
+    <div class="cards">
+
+
+        <div class="card">
+
+            <div class="card-icon">∑</div>
+
+            <h3>Algebra</h3>
+
+            <p>
+                Algebraic structures, algebraic methods,
+                and their applications in mathematical research.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">∞</div>
+
+            <h3>Topological Groups</h3>
+
+            <p>
+                Topological groups, topological algebra,
+                and related structural properties.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">◇</div>
+
+            <h3>Selection Principles</h3>
+
+            <p>
+                Selection principles, covering properties,
+                and related problems in topology.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">♟</div>
+
+            <h3>Game Theory</h3>
+
+            <p>
+                Mathematical games, topological games,
+                and strategic approaches to mathematical problems.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">V</div>
+
+            <h3>Vector Spaces</h3>
+
+            <p>
+                Vector spaces, linear transformations,
+                and structural aspects of linear algebra.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="card-icon">AI</div>
+
+            <h3>Data Science & AI</h3>
+
+            <p>
+                Mathematical foundations of data science,
+                machine learning, and artificial intelligence.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- RESEARCH -->
+
+<section class="research" id="research">
+
+    <h2 class="section-title">
+        Research Interests
+    </h2>
+
+    <p class="section-subtitle">
+        Current academic interests
+    </p>
+
+
+    <div class="research-list">
+
+        <div class="research-item">
+
+            <h3>Topological Groups</h3>
+
+            <p>
+                Research in topological groups, topological algebra,
+                and related structural properties.
+            </p>
+
+        </div>
+
+
+        <div class="research-item">
+
+            <h3>Selection Principles</h3>
+
+            <p>
+                Study of Menger-type properties, selection principles,
+                and their generalizations in topology.
+            </p>
+
+        </div>
+
+
+        <div class="research-item">
+
+            <h3>Topological Games</h3>
+
+            <p>
+                Investigation of game-theoretic methods and
+                topological games associated with covering properties.
+            </p>
+
+        </div>
+
+
+        <div class="research-item">
+
+            <h3>Mathematics, Data Science & AI</h3>
+
+            <p>
+                Exploring connections between mathematical theory,
+                data analysis, machine learning, and artificial intelligence.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">
+        Contact
+    </h2>
+
+    <p>
+        Dr. Muhammad Asad Iqbal
+    </p>
+
+    <p>
+        Assistant Professor of Mathematics
+    </p>
+
+    <p>
+        Riphah International University, Sahiwal Campus
+    </p>
+
+</section>
 
 
 <!-- FOOTER -->
 
 <footer>
 
-    © 2026 Dr. Muhammad Asad Iqbal
+    © 2026 Dr. Muhammad Asad Iqbal | Academic Profile
 
 </footer>
 
