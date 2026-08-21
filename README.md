@@ -1,6 +1,6 @@
-# 👋 Hi, I'm Dr. Asad
+# Hi, I'm Dr. Asad
 
-## 👨‍🏫 Assistant Professor | Mathematics | AI & Machine Learning
+# Assistant Professor | Mathematics | AI & Machine Learning
 
 I am interested in:
 
@@ -14,13 +14,13 @@ I am interested in:
 
 ---
 
-## 👀 Profile Views
+# Profile Views
 
 ![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=flat)
 
 ---
 
-## 🛠️ Skills
+# Skills
 
 - Python
 - Machine Learning
@@ -31,7 +31,7 @@ I am interested in:
 
 ---
 
-## 📚 Teaching Interests
+# Teaching Interests
 
 - Linear Algebra
 - Neural Networks
@@ -42,7 +42,7 @@ I am interested in:
 
 ---
 
-## 📊 GitHub Activity
+# GitHub Activity
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default)
 
