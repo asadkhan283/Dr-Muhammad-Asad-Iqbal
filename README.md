@@ -1,16 +1,20 @@
-# Hi, I'm Dr. Asad
+# Hi, I'm Dr. Muhammad Asad Iqbal
 
 # Assistant Professor | Mathematics | AI & Machine Learning
 
 I am interested in:
 
-- Mathematics
+- Calculus
 - Linear Algebra
+- Topolgical Groups & Vector Spaces
+- Selection Principles & Game Theory
+- Algebraic Topology
+- Mathematical Modeling
 - Machine Learning
 - Artificial Intelligence
 - Python
 - Data Science
-- Mathematical Modeling
+  
 
 ---
 
@@ -25,19 +29,21 @@ I am interested in:
 - Python
 - Machine Learning
 - Artificial Intelligence
-- Linear Algebra
 - Data Analysis
 - Mathematical Modeling
+- Latex
+- MS Office
 
 ---
 
 # Teaching Interests
 
+- Calculus
+- Discrete Mathematics
 - Linear Algebra
+- Topological Algebra
 - Neural Networks
 - Machine Learning
-- System of Linear Equations
-- Linear Transformations
 - Mathematical Modeling
 
 ---
